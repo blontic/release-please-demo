@@ -1,5 +1,19 @@
 # Changelog
 
+## [4.1.0](https://github.com/blontic/release-please-demo/compare/v4.0.0...v4.1.0) (2024-02-02)
+
+
+### Features
+
+* add workflow dispatch ([f9a4271](https://github.com/blontic/release-please-demo/commit/f9a427175c2787eda977466850d33e6fe05ddb6e))
+* bump version ([c622605](https://github.com/blontic/release-please-demo/commit/c6226055878632477abe540f28baa2af6bf3f025))
+* checkout ref ([f6cfec7](https://github.com/blontic/release-please-demo/commit/f6cfec723ee21ca7c1ed7277df51e948ce3bf590))
+
+
+### Bug Fixes
+
+* remove ref ([ed402b4](https://github.com/blontic/release-please-demo/commit/ed402b47563f8d1a884a65c489ff17900b930fcf))
+
 ## [4.0.0](https://github.com/blontic/release-please-demo/compare/v3.0.0...v4.0.0) (2024-02-02)
 
 
