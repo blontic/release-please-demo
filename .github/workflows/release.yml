@@ -19,7 +19,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
         with:
-          ref: ref/tags/${{ inputs.version }}
+          ref: tags/${{ inputs.version }}
 
       - uses: actions/github-script@v6
         id: get-release
