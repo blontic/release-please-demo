@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   main:
-    name: Validate Naming Standards
+    name: Validate Naming Standards1111
     runs-on: ubuntu-latest
     steps:
       - name: Validate Title
