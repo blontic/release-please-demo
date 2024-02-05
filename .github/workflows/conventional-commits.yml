@@ -1,4 +1,4 @@
-name: Validate Naming Standard
+name: Validate Naming Standards
 
 on:
   pull_request:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   main:
-    name: Validate Naming Standard
+    name: Validate Naming Standards
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
