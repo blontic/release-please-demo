@@ -1,5 +1,13 @@
 # Changelog
 
+## [5.0.1](https://github.com/blontic/release-please-demo/compare/v5.0.0...v5.0.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* remove checkout ([f9b4891](https://github.com/blontic/release-please-demo/commit/f9b4891e02212580ffc4d65857a38bf6bdb3b290))
+* use only main ([#17](https://github.com/blontic/release-please-demo/issues/17)) ([d01f7b3](https://github.com/blontic/release-please-demo/commit/d01f7b34847a6ed1f73e5544f2be69ac45e4d004))
+
 ## [5.0.0](https://github.com/blontic/release-please-demo/compare/v4.2.0...v5.0.0) (2024-02-05)
 
 
