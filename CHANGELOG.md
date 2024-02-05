@@ -1,5 +1,18 @@
 # Changelog
 
+## [4.2.0](https://github.com/blontic/release-please-demo/compare/v4.1.0...v4.2.0) (2024-02-05)
+
+
+### Features
+
+* add convention commits ([#10](https://github.com/blontic/release-please-demo/issues/10)) ([5f7666d](https://github.com/blontic/release-please-demo/commit/5f7666d9fdd2569de1a56fb667c40c014af43932))
+
+
+### Bug Fixes
+
+* fix validation ([#13](https://github.com/blontic/release-please-demo/issues/13)) ([53e2bf1](https://github.com/blontic/release-please-demo/commit/53e2bf1d4c10d37ce14d3d1ce307657d4979ad67))
+* **platform:** fix commit message ([#12](https://github.com/blontic/release-please-demo/issues/12)) ([b360138](https://github.com/blontic/release-please-demo/commit/b3601384f6a6db642e5dd12a599e5db1815103f1))
+
 ## [4.1.0](https://github.com/blontic/release-please-demo/compare/v4.0.0...v4.1.0) (2024-02-02)
 
 
