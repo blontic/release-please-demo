@@ -1,20 +1,21 @@
 name: Validate Naming Standards
 
 on:
-  pull_request:
-    branches: [main]
   pull_request_target:
     types:
       - opened
       - edited
       - synchronize
+      - reopened
+    branches:
+      - main
 
 jobs:
   main:
     name: Validate Naming Standards
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # - uses: actions/checkout@v4
 
       - name: Validate Title
         uses: amannn/action-semantic-pull-request@v5
