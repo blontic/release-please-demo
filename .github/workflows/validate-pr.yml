@@ -1,7 +1,12 @@
 name: Validate Naming Standards
 
 on:
-  pull_request:
+  pull_request_target:
+    types:
+      - opened
+      - edited
+      - synchronize
+      - reopened
     branches:
       - main
 
