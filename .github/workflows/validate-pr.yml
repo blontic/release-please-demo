@@ -1,13 +1,13 @@
 name: Validate Naming Standards
 
 on:
-  pull_request:
-    branches: [main]
   pull_request_target:
     types:
-      # - opened
+      - opened
       - edited
       - synchronize
+    branches:
+      - main
 
 jobs:
   main:
