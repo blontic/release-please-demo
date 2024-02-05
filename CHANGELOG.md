@@ -1,5 +1,16 @@
 # Changelog
 
+## [5.0.0](https://github.com/blontic/release-please-demo/compare/v4.2.0...v5.0.0) (2024-02-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename file ([#14](https://github.com/blontic/release-please-demo/issues/14))
+
+### Features
+
+* rename file ([#14](https://github.com/blontic/release-please-demo/issues/14)) ([7dc709b](https://github.com/blontic/release-please-demo/commit/7dc709b511ba397ff002679e734acf548a59cc99))
+
 ## [4.2.0](https://github.com/blontic/release-please-demo/compare/v4.1.0...v4.2.0) (2024-02-05)
 
 
