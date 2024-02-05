@@ -1,14 +1,12 @@
 name: Validate Naming Standards
 
 on:
-  pull_request_target:
-    types:
-      - opened
-      - edited
-      - synchronize
-      - reopened
+  pull_request:
     branches:
       - main
+
+permissions:
+  pull-requests: read
 
 jobs:
   main:
@@ -22,8 +20,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          # Configure which types are allowed (newline-delimited).
-          # Default: https://github.com/commitizen/conventional-commit-types
           types: |
             fix
             feat
@@ -33,5 +29,4 @@ jobs:
         uses: webiny/action-conventional-commits@v1.3.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Optional, set if you want a subset of commit types to be allowed.
           allowed-commit-types: "feat,fix,chore"
